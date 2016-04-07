@@ -1,10 +1,9 @@
 {
   "name": "auto-pth",
   "main": "./lib/auto-pth",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Hotkey for using the pth utility",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "auto-pth:transform"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
