@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Transform auto-pth'
+      'command': 'auto-pth:transform'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'auto-pth'
+      'submenu': [
+        {
+          'label': 'Transform'
+          'command': 'auto-pth:transform'
+        }
+      ]
+    ]
+  }
+]
